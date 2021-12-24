@@ -1,0 +1,35 @@
+{
+    "name": "jaschavanaalst/cs-wp-defined-notation-fixer",
+    "description": "Custom Fixer for php-cs-fixer related to WordPress and personal preference.",
+    "require": {
+        "friendsofphp/php-cs-fixer": "^3.4",
+        "php": "^7.4|^8"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest",
+        "phpunit/phpunit": "^9.5",
+        "symfony/filesystem": "^5.4",
+        "symfony/finder": "^5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jascha030",
+            "email": "contact@jaschavanaalst.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Jascha030\\PhpCsFixer\\WordPress\\DefinedNotation\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jascha030\\PhpCsFixer\\WordPress\\DefinedNotation\\Test\\": "tests/"
+        }
+    },
+    "scripts": {
+        "phpunit": "vendor/bin/phpunit --configuration ./phpunit.xml"
+    }
+}
