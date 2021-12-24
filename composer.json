@@ -1,5 +1,5 @@
 {
-    "name": "jaschavanaalst/cs-wp-defined-notation-fixer",
+    "name": "jascha030/cs-wp-defined-notation-fixer",
     "description": "Custom Fixer for php-cs-fixer related to WordPress and personal preference.",
     "require": {
         "friendsofphp/php-cs-fixer": "^3.4",
